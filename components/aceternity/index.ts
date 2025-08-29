@@ -4,6 +4,7 @@
 export { HoverEffect, Card, CardTitle, CardDescription } from './card-spotlight';
 export { Hate } from './hate';
 export { MacbookScroll } from './macbook-scroll';
+export { ThreeDCardDemo } from './3d-card-demo';
 
 // Usage:
-// import { HoverEffect, Hate, MacbookScroll } from '@/components/aceternity';
+// import { HoverEffect, Hate, MacbookScroll, ThreeDCardDemo } from '@/components/aceternity';

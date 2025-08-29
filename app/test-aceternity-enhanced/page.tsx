@@ -102,7 +102,7 @@ export default function TestAceternityPage() {
             <TextRevealCard
               text="AstroBits Core"
               revealText="MCP-Powered Development System"
-              imageUrl="https://images.unsplash.com/photo-1518709268805-4e9042af2176?w=800&h=600&fit=crop"
+
             />
           </div>
         </div>
