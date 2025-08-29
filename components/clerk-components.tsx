@@ -94,7 +94,7 @@ export function ClerkUserProfile() {
         </div>
         <div className="space-y-2">
           <p><strong>User ID:</strong> {user.id}</p>
-          <p><strong>Created:</strong> {new Date(user.createdAt).toLocaleDateString()}</p>
+          <p><strong>Created:</strong> {user.createdAt ? new Date(user.createdAt).toLocaleDateString() : 'Unknown'}</p>
           <p><strong>Email Verified:</strong> {user.primaryEmailAddress?.verification?.status === 'verified' ? '✅ Yes' : '❌ No'}</p>
         </div>
         <div className="flex justify-center">
