@@ -1,3 +1,5 @@
+"use client"
+
 import DocsLayout from "@/components/DocsLayout"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
@@ -18,8 +20,6 @@ import {
   CheckCircle,
   ArrowRight
 } from "lucide-react"
-"use client"
-
 import Image from "next/image"
 
 export default function AboutPage() {
