@@ -1,0 +1,47 @@
+{
+  "mcpServers": {
+    "supabase": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@supabase/mcp-server-supabase@latest",
+        "--read-only",
+        "--project-ref=whcjmdrrqamcoqtonend"
+      ],
+      "env": {
+        "SUPABASE_ACCESS_TOKEN": "sbp_YOUR_ACTUAL_TOKEN_HERE"
+      }
+    },
+    "notion": {
+      "url": "https://mcp.notion.com/mcp"
+    },
+    "context7": {
+      "url": "https://mcp.context7.com/mcp",
+      "env": {
+        "CONTEXT7_API_KEY": "ctx7sk-d3662c57-b968-4883-889d-0ceeb2081c3a"
+      }
+    },
+    "sentry": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@sentry/mcp-server@latest"
+      ],
+      "env": {
+        "SENTRY_DSN": "https://27f3b7cfb3e6b6a824a8aaa60b2c918c@o4509925548556288.ingest.us.sentry.io/4509925549277184",
+        "SENTRY_ORG": "wvfm-labs",
+        "SENTRY_PROJECT": "javascript-nextjs"
+      }
+    },
+    "memory": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@openmemory/mcp-server@latest"
+      ],
+      "env": {
+        "OPENMEMORY_API_KEY": "om-4b5ocxdarw5edzllog7694j8it7hyt7q"
+      }
+    }
+  }
+}

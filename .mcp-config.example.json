@@ -1,0 +1,121 @@
+{
+  "mcpServers": {
+    "context7": {
+      "command": "npx",
+      "args": ["-y", "@upstash/context7-mcp"]
+    },
+    "fs": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-filesystem", "--root", "."]
+    },
+    "memory": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-memory"]
+    },
+    "git": {
+      "command": "uvx",
+      "args": ["mcp-server-git", "--repository", "."]
+    },
+    "fetch": {
+      "command": "uvx",
+      "args": ["mcp-server-fetch"]
+    },
+    "magic_ui": {
+      "command": "npx",
+      "args": ["-y", "@21st-dev/magic"]
+    },
+    "shadcn_ui": {
+      "command": "npx",
+      "args": ["-y", "@jpisnice/shadcn-ui-mcp-server"],
+      "env": {
+        "FRAMEWORK": "nextjs",
+        "GITHUB_TOKEN": "${GITHUB_TOKEN}"
+      }
+    },
+    "radix_ui": {
+      "command": "npx",
+      "args": ["-y", "@radix-ui/mcp-server"],
+      "env": {
+        "RADIX_UI_VERSION": "latest"
+      }
+    },
+    "aceternity_ui": {
+      "command": "npx",
+      "args": ["-y", "aceternityui-mcp"]
+    },
+    "vercel_tools": {
+      "command": "npx",
+      "args": ["-y", "@vercel/mcp-adapter"]
+    },
+    "browser_tools": {
+      "command": "npx",
+      "args": ["-y", "@agent-infra/mcp-server-browser"]
+    },
+    "playwright": {
+      "command": "npx",
+      "args": ["-y", "@playwright/mcp"]
+    },
+    "stripe": {
+      "type": "sse",
+      "url": "https://mcp.stripe.com",
+      "env": {
+        "STRIPE_SECRET_KEY": "${STRIPE_SECRET_KEY}"
+      }
+    },
+    "supabase": {
+      "command": "npx",
+      "args": ["-y", "@supabase/mcp-server-supabase"],
+      "env": {
+        "SUPABASE_URL": "${SUPABASE_URL}",
+        "SUPABASE_ANON_KEY": "${SUPABASE_ANON_KEY}",
+        "SUPABASE_SERVICE_ROLE_KEY": "${SUPABASE_SERVICE_ROLE_KEY}"
+      }
+    },
+    "clerk": {
+      "command": "npx",
+      "args": ["-y", "@clerk/mcp-server"],
+      "env": {
+        "CLERK_PUBLISHABLE_KEY": "${CLERK_PUBLISHABLE_KEY}",
+        "CLERK_SECRET_KEY": "${CLERK_SECRET_KEY}"
+      }
+    },
+    "notion": {
+      "command": "npx",
+      "args": ["-y", "@notionhq/notion-mcp-server"],
+      "env": {
+        "NOTION_TOKEN": "${NOTION_TOKEN}"
+      }
+    },
+    "heroku": {
+      "command": "npx",
+      "args": ["-y", "@heroku/mcp-server"],
+      "env": {
+        "HEROKU_API_KEY": "${HEROKU_API_KEY}"
+      }
+    },
+    "sentry": {
+      "command": "npx",
+      "args": ["-y", "@sentry/mcp-server"],
+      "env": {
+        "SENTRY_AUTH_TOKEN": "${SENTRY_AUTH_TOKEN}",
+        "SENTRY_ORG": "${SENTRY_ORG}"
+      }
+    },
+    "react_bits": {
+      "command": "npx",
+      "args": ["mcp-remote", "https://react-bits-mcp.davidhzdev.workers.dev/sse"]
+    },
+    "sequential_thinking": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-sequential-thinking"]
+    },
+    "everything": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-everything"]
+    },
+    "inspector": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/inspector"]
+    }
+  }
+}
