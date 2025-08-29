@@ -309,7 +309,7 @@ export default function MCPOverviewPage() {
               </CardHeader>
               <CardContent>
                 <p className="text-lg font-mono bg-gray-100 dark:bg-gray-800 p-4 rounded">
-                  "Create a new user authentication page with Clerk and add it to the navigation"
+                  &quot;Create a new user authentication page with Clerk and add it to the navigation&quot;
                 </p>
               </CardContent>
             </Card>
