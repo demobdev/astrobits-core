@@ -96,7 +96,7 @@ export default function ProductsPage() {
               
               <div className="bg-gray-800/30 backdrop-blur-sm rounded-lg p-6 border border-gray-700 text-center">
                 <div className="text-4xl mb-4">👑</div>
-                <h3 className="text-xl font-bold mb-2">Collector's Set</h3>
+                <h3 className="text-xl font-bold mb-2">Collector&apos;s Set</h3>
                 <p className="text-gray-300 mb-4">Ultimate experience</p>
                 <span className="text-2xl font-bold text-amber-400">$129</span>
               </div>

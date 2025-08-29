@@ -60,7 +60,7 @@ export default function ShadcnPage() {
           <CardHeader className="text-center">
             <CardTitle className="text-3xl font-bold mb-4">What is Shadcn/UI?</CardTitle>
             <CardDescription className="text-lg max-w-3xl mx-auto">
-              Shadcn/UI is a collection of reusable components built using Radix UI and Tailwind CSS. It's not a component library, but a collection of components that you can copy and paste into your apps.
+              Shadcn/UI is a collection of reusable components built using Radix UI and Tailwind CSS. It&apos;s not a component library, but a collection of components that you can copy and paste into your apps.
             </CardDescription>
           </CardHeader>
           <CardContent>
